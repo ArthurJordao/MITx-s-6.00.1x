@@ -1,4 +1,4 @@
-s = 'zdxcpfopp'
+s = 'txiblyxwjkuerlhjiwbjo'
 # count = 0
 # for letter in s:
 #     if letter in 'aeiou':
@@ -14,6 +14,8 @@ s = 'zdxcpfopp'
 #         s = s[index + 1:]
 # print(count)
 # print('a' <= 'b') # True
+
+# This code find the largest sequence of chars in alphabetical order in the string s
 longest_world_alphabetical_order = ''
 world_alphabetical_order = ''
 for x in range(len(s)):
@@ -32,6 +34,4 @@ for x in range(len(s)):
             if len(world_alphabetical_order) > len(longest_world_alphabetical_order):
                 longest_world_alphabetical_order = world_alphabetical_order
             world_alphabetical_order = letter
-if len(longest_world_alphabetical_order) == 0:
-    longest_world_alphabetical_order == world_alphabetical_order
 print(longest_world_alphabetical_order)
