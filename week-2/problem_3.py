@@ -21,6 +21,7 @@ def compare_balance_with_zero(balance):
     else:
         return -1
 
+# Test values
 balance = 320000
 annualInterestRate = 0.2
 

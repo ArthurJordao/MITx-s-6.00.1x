@@ -7,6 +7,7 @@ def pay_debt_in_period_months(balance, annual_interest_rate, monthly_payment, ti
         return pay_debt_in_period_months(unpaid + interest, annual_interest_rate, monthly_payment,
                                          time_remain_months - 1)
 
+# Test values
 balance = 3926
 annualInterestRate = 0.2
 
